@@ -1,0 +1,8 @@
+[package]
+name = "getgroups"
+version = "0.1.0"
+edition = "2024"
+description = "The getgroups Command Lists Supplementary Linux Group IDs for Its Own Process, with Numeric Membership Checks for Scripts"
+
+[dependencies]
+clap = { version = "=4.6.6", features = ["derive"] }
